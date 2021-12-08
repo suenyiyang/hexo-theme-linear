@@ -1,0 +1,36 @@
+declaration: true
+
+# personal links
+linkiconbase: /images/links/
+links:
+  - name: github
+    link: https://github.com/syy11cn
+    icon: github.png
+  - name: twitter
+    link: https://twitter.com/syy11cn
+    icon: twitter.png
+  - name: email
+    link: 'mailto:syy11cn@outlook.com'
+    icon: email.png
+  - name: rss
+    link: /atom.xml
+    icon: feed.png
+
+# comment
+comment:
+  enabled: true
+disqus:
+  shortname: syy11cn
+
+# multi-author
+author:
+  on: true
+  authors:
+    author1: syy11cn
+    author2: syy
+
+# footer
+icp: ''
+counter:
+  enabled: true
+  url: https://www.mfwztj.com/hit.php?id=zemuxkao&nd=6&style=1

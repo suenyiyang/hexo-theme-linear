@@ -1,0 +1,21 @@
+<header>
+  <div class="site-title">
+    <a href="/">
+      <%- config.title %>
+    </a>
+  </div>
+  <% if (config.subtitle) { %>
+  <div class="site-subtitle">
+    <%- config.subtitle %>
+  </div>
+  <% } %>
+  <% if (theme.links) { %>
+  <p class="links">
+    <% theme.links.forEach((item,index)=>{ %>
+    <a href="<%- item.link %>">
+      <img src="<%- theme.linkiconbase %><%- item.icon %>" alt="<%- item.name %>">
+    </a>
+    <% }) %>
+  </p>
+  <% } %>
+</header>

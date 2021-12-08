@@ -1,0 +1,25 @@
+<article class="post">
+  <%- partial('post/date.ejs', { post: post }) %>
+  <h1><%- post.title %></h1>
+  <% if (post.cover) { %>
+  <img src="<%- post.cover %>" alt="<%- post.title %>">
+  <% } %>
+  <article>
+    <%- post.content %>
+  </article>
+  <% if (theme.declaration) { %>
+  <hr>
+  <blockquote>
+    <p>
+      本文由 <a href=""><%- post.author ? post.author : config.author %></a> 创作，采用 <a href="https://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0</a> 国际许可协议。
+    </p>
+    <p>
+      本站文章除注明转载/出处外，均为本站原创或翻译，转载请务必署名。
+    </p>
+  </blockquote>
+  <% } %>
+</article>
+
+<% if (!index && theme.comment.enabled) { %>
+<%- partial('disqus', { page: page }) %>
+<% } %>

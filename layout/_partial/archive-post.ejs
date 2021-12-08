@@ -1,0 +1,15 @@
+<li>
+  <%- partial('post/date.ejs', { post: post }) %>
+  <div class="info">
+    <h2>
+      <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+    </h2>
+    <p>
+      <span class="post-info-item"><%- post.author ? post.author : config.author %></span>
+      <a class="post-info-item" href="<%- url_for(post.path) %>#disqus_thread" data-disqus-identifier="<%- post.title %>"></a>
+    </p>
+  </div>
+  <% if (post.cover) { %>
+  <img src="<%- post.cover %>" alt="<%- post.title %>">
+  <% } %>
+</li>
