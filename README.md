@@ -3,9 +3,9 @@
 ## TODO LIST
 
 - [x] Basic structure and style.
-- [] Reactivity.
-- [] Documentation.
-- [] Publish.
+- [ ] Reactivity.
+- [ ] Documentation.
+- [ ] Publish.
 
 ## DESIGN
 
