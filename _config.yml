@@ -1,3 +1,4 @@
+# license of articles
 declaration: true
 
 # personal links
@@ -21,13 +22,6 @@ comment:
   enabled: true
 disqus:
   shortname: syy11cn
-
-# multi-author
-author:
-  on: true
-  authors:
-    author1: syy11cn
-    author2: syy
 
 # footer
 icp: ''

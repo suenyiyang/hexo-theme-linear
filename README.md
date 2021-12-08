@@ -2,10 +2,27 @@
 
 ## TODO LIST
 
+### Theme
+
 - [x] Basic structure and style.
+- [x] Markdown style support.
+- [x] Comment system with [Disqus](https://disqus.com/).
 - [ ] Reactivity.
+- [ ] International.
 - [ ] Documentation.
 - [ ] Publish.
+
+### My personal blog
+
+- [ ] Config DNS.
+- [ ] Create blog repo.
+- [ ] Config CI/CD.
+- [ ] Learn about git subtree.
+- [ ] Publish
+
+## INSPIRATION
+
+[Evan You's blog.](https://blog.evanyou.me)
 
 ## DESIGN
 
@@ -31,4 +48,4 @@ while for posts on mobile devices:
 
 ## COMMENT
 
-Recommend to use `Valine` for comments.
+Use [Disqus](https://disqus.com/) for comment. Easy configuration and long term use.
