@@ -1,38 +1,31 @@
-# favicon
+# favicon path to your logo
 favicon:
 
-# license of articles
+# whether to display `CC BY-SA 4.0` declaration
 declaration: true
 
 # personal links
+## links icon base folder
 linkiconbase: /images/links/
+## array of links
 links:
-  - name: github
-    link: https://github.com/syy11cn
-    icon: github.png
-  - name: twitter
-    link: https://twitter.com/syy11cn
-    icon: twitter.png
-  - name: email
-    link: 'mailto:syy11cn@outlook.com'
-    icon: email.png
-  - name: rss
-    link: /atom.xml
-    icon: feed.png
-  - name: links
-    link: /links/
-    icon: friends.png
+  - name:
+    link:
+    icon:
 
 # comment
 valine:
   enabled: true
   appId:
   appKey:
-  placeholder: 欢迎你的评论~
+  placeholder:
   avatar:
 
 # footer
-icp: ''
+## for users in China
+icp:
+## visitor counter
 counter:
   enabled: true
-  url: https://www.mfwztj.com/hit.php?id=zemuxkao&nd=6&style=1
+  ### refer to https://github.com/syy11cn/hexo-theme-linear/blob/main/docs/guide.md
+  url:
