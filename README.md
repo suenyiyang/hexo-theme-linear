@@ -9,16 +9,16 @@
 - [x] Comment system with [Disqus](https://disqus.com/).
 - [ ] Reactivity.
 - [ ] International.
+- [ ] Content of article.
 - [ ] Documentation.
 - [ ] Publish.
 
 ### My personal blog
 
-- [ ] Config DNS.
-- [ ] Create blog repo.
-- [ ] Config CI/CD.
-- [ ] Learn about git subtree.
-- [ ] Publish
+- [x] Create blog repo.
+- [x] Config DNS.
+- [x] Config CI/CD.
+- [x] Publish
 
 ## INSPIRATION
 

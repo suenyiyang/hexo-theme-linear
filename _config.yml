@@ -16,6 +16,9 @@ links:
   - name: rss
     link: /atom.xml
     icon: feed.png
+  - name: links
+    link: /links/
+    icon: friends.png
 
 # comment
 comment:
