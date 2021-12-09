@@ -29,6 +29,7 @@ valine:
   appId:
   appKey:
   placeholder: 欢迎你的评论~
+  avatar:
 
 # footer
 icp: ''

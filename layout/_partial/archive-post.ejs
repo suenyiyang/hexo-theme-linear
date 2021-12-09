@@ -4,10 +4,7 @@
     <h2>
       <a href="<%- url_for(post.path) %>"><%- post.title %></a>
     </h2>
-    <p>
-      <span class="post-info-item"><%- post.author ? post.author : config.author %></span>
-      <a class="post-info-item" href="<%- url_for(post.path) %>#disqus_thread" data-disqus-identifier="<%- post.title %>"></a>
-    </p>
+    <%- partial('post/info', { post: post }) %>
   </div>
   <% if (post.cover) { %>
   <img class="index-cover" src="<%- post.cover %>" alt="<%- post.title %>">

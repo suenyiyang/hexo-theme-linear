@@ -1,5 +1,5 @@
 <h3 class="date">
   <time datetime="<%- date_xml(post.date) %>">
-    <%- date(post.date, 'YYYY-MM-DD') %>
+    <%- moment(post.date).format('ll') %>
   </time>
 </h3>

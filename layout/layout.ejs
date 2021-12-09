@@ -8,6 +8,17 @@
     </div>
   </div>
   <%- partial('_partial/footer') %>
+  <script>
+    new Valine({
+      el: '#vcomments',
+      appId: '<%- theme.valine.appId %>',
+      appKey: '<%- theme.valine.appKey %>',
+      placeholder: '<%- theme.valine.placeholder %>',
+      avatar: '<%- theme.valine.avatar || "retro" %>',
+      visitor: true,
+      requiredFields: ['nick', 'mail']
+    })
+  </script>
 </body>
 
 </html>

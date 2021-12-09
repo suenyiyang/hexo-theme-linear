@@ -5,6 +5,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="<%- theme.favicon %>" type="image/x-icon">
+  <!-- keywords and description -->
+  <% if (is_home()) { %>
+  <meta name="keywords" content="<%- config.keywords && config.keywords.join(', ') %>" />
+  <meta name="description" content="<%- config.description %>">
+  <% } else { %>
+  <meta name="keywords" content="<%- page.keywords.join(", ") %>" />
+  <meta name="description" content="<%- page.description || page.excerpt || '' %>" />
+  <% } %>
   <%- css('css/style') %>
   <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 </head>
