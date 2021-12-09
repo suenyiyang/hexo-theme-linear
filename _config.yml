@@ -21,10 +21,11 @@ links:
     icon: friends.png
 
 # comment
-comment:
+valine:
   enabled: true
-disqus:
-  shortname: syy11cn
+  appId:
+  appKey:
+  placeholder: 欢迎你的评论~
 
 # footer
 icp: ''

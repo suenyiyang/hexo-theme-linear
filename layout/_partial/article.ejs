@@ -20,6 +20,6 @@
   <% } %>
 </article>
 
-<% if (!index && theme.comment.enabled) { %>
-<%- partial('disqus', { page: page }) %>
+<% if (!index && theme.valine.enabled) { %>
+<%- partial('valine') %>
 <% } %>
