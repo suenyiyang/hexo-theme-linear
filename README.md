@@ -7,7 +7,9 @@
 - [x] Basic structure and style.
 - [x] Markdown style support.
 - [x] Comment system with [Disqus](https://disqus.com/).
-- [ ] Reactivity.
+- [x] Reactivity.
+- [ ] SEO.
+- [ ] Load speed.
 - [ ] International.
 - [ ] Content of article.
 - [ ] Documentation.
@@ -48,4 +50,8 @@ while for posts on mobile devices:
 
 ## COMMENT
 
-Use [Disqus](https://disqus.com/) for comment. Easy configuration and long term use.
+Use _[Valine]()_ instead of _[Disqus]()_ for stable access.
+
+![20211209174606](https://shaun.oss-cn-beijing.aliyuncs.com/typora/20211209174606.png/watermark)
+
+> That's why I abandon disqus...
