@@ -9,6 +9,7 @@
 - [x] Comment system with [Disqus](https://disqus.com/).
 - [x] Reactivity.
 - [ ] SEO.
+- [ ] Load speed.
 - [ ] International.
 - [ ] Content of article.
 - [ ] Documentation.
@@ -50,3 +51,8 @@ while for posts on mobile devices:
 ## COMMENT
 
 Use _[Valine](https://valine.js.org/)_ instead of _[Disqus](https://disqus.com/)_ for comment. Easy configuration and stable use.
+
+
+![20211209174606](https://shaun.oss-cn-beijing.aliyuncs.com/typora/20211209174606.png/watermark)
+
+> That's why I abandon disqus...
