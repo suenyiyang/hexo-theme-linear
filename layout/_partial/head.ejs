@@ -10,7 +10,7 @@
   <meta name="keywords" content="<%- config.keywords && config.keywords.join(', ') %>" />
   <meta name="description" content="<%- config.description %>">
   <% } else { %>
-  <meta name="keywords" content="<%- page.keywords.join(", ") %>" />
+  <meta name="keywords" content="<%- page.keywords && page.keywords.join(", ") %>" />
   <meta name="description" content="<%- page.description || page.excerpt || '' %>" />
   <% } %>
   <%- css('css/style') %>
