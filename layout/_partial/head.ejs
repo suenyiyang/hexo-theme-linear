@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta itemprop="name" content="<%- config.title %>" />
+  <meta itemprop="description" content="<%- config.subtitle || config.description %>" />
+  <meta itemprop="image" content="<%- theme.favicon %>" />
   <link rel="shortcut icon" href="<%- theme.favicon %>" type="image/x-icon">
   <!-- keywords and description -->
   <% if (is_home()) { %>
