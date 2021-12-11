@@ -1,5 +1,5 @@
 <p class="post-info">
   <span class="post-info-item author"><%- post.author || config.author %></span>
-  <a href="<%- url_for(post.path) %>#vcomments" class="post-info-item comment-count valine-comment-count" data-xid="<%- url_for(post.path) %>"></a>
-  <span class="post-info-item view-count leancloud_visitors" id="<%- url_for(post.path).replace("index.html","") %>" data-flag-title="<%- post.title %>"><span class="leancloud-visitors-count"></span></span>
+  <a href="<%- url_for(post.path) %>#waline" class="post-info-item comment-count waline-comment-count" id="<%- url_for(post.path).replace('index.html', '') %>"></a>
+  <span class="post-info-item view-count waline-visitor-count" id="<%- url_for(post.path).replace('index.html', '') %>"></span>
 </p>

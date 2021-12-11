@@ -9,15 +9,22 @@
   </div>
   <%- partial('_partial/footer') %>
   <script>
-    new Valine({
-      el: '#vcomments',
-      appId: '<%- theme.valine.appId %>',
-      appKey: '<%- theme.valine.appKey %>',
+    Waline({
+      el: '#waline',
       placeholder: '<%- theme.valine.placeholder %>',
       avatar: '<%- theme.valine.avatar || "retro" %>',
       visitor: true,
       requiredFields: ['nick', 'mail'],
-    })
+      serverURL: theme.waline.serverURL,
+      emoji: [
+        '<%- theme.waline.emoji.bilibili ? "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili" : "" %>',
+        '<%- theme.waline.emoji.qq ? "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq" : "" %>',
+        '<%- theme.waline.emoji.alus ? "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus" : "" %>',
+        '<%- theme.waline.emoji.twitter ? "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji" : "" %>',
+        '<%- theme.waline.emoji.weibo ? "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo" : "" %>',
+        '<%- theme.waline.emoji.tieba ? "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba" : "" %>',
+      ]
+    });
   </script>
 </body>
 

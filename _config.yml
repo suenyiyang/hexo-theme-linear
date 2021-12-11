@@ -14,12 +14,18 @@ links:
     icon:
 
 # comment
-valine:
+waline:
   enabled: true
-  appId:
-  appKey:
+  serverURL:
   placeholder:
   avatar:
+  emoji:
+    bilibili: true
+    qq: true
+    tieba: true
+    twitter: true
+    alus: true
+    weibo: true
 
 # footer
 ## for users in China
