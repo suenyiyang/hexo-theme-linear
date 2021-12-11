@@ -15,7 +15,7 @@
       avatar: '<%- theme.waline.avatar || "retro" %>',
       visitor: true,
       requiredFields: ['nick', 'mail'],
-      serverURL: theme.waline.serverURL,
+      serverURL: '<%- theme.waline.serverURL %>',
       emoji: [
         '<%- theme.waline.emoji.bilibili ? "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili" : "" %>',
         '<%- theme.waline.emoji.qq ? "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq" : "" %>',
