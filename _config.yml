@@ -27,6 +27,11 @@ waline:
     alus: true
     weibo: true
 
+# pagination
+pagination:
+  prev_text: '<'
+  next_text: '>'
+
 # footer
 ## for users in China
 icp:

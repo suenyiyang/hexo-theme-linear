@@ -1,4 +1,26 @@
 #main > ul
-    list-style-type: none
-    padding: 0
-    padding-top: 4px
+  list-style-type: none
+  padding: 0
+  padding-top: 4px
+
+#page-nav
+  width: 100%
+  font-size: 13px
+  margin: 30px 0 50px
+  font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+  .prev
+    position: absolute
+    left: 0
+  .next
+    position: absolute
+    right: 0
+  .current
+    color: theme-color
+  .page-number
+    margin: 0 8px
+  .page-number:hover, .extend:hover
+    color: theme-color
