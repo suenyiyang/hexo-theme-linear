@@ -14,7 +14,7 @@
   <meta name="description" content="<%- config.description %>">
   <% } else { %>
   <meta name="keywords" content="<%- page.keywords && page.keywords.join(", ") %>" />
-  <meta name="description" content="<%- page.description || page.excerpt || '' %>" />
+  <meta name="description" content="<%- page.description || '' %>" />
   <% } %>
   <%- css('css/style') %>
   <script src="//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"></script>
