@@ -1,8 +1,12 @@
 # favicon path to your logo
 favicon:
 
-# whether to display `CC BY-SA 4.0` declaration
-declaration: true
+# canvas
+canvasbg:
+  enabled: false
+  color:
+  opacity:
+  count:
 
 # personal links
 ## links icon base folder
@@ -12,6 +16,14 @@ links:
   - name:
     link:
     icon:
+
+# pagination
+pagination:
+  prev_text: '<'
+  next_text: '>'
+
+# whether to display `CC BY-SA 4.0` declaration
+declaration: true
 
 # comment
 waline:
@@ -26,11 +38,6 @@ waline:
     twitter: true
     alus: true
     weibo: true
-
-# pagination
-pagination:
-  prev_text: '<'
-  next_text: '>'
 
 # footer
 ## for users in China

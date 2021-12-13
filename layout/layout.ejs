@@ -8,6 +8,10 @@
     </div>
   </div>
   <%- partial('_partial/footer') %>
+  <% if (theme.canvasbg.enabled) { %>
+  <canvas id="c_n6" width="314" height="731" style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.5;"></canvas>
+  <script z-index="-1" color="<%- theme.canvasbg.color %>" opacity="<%- theme.canvasbg.opacity %>" count="<%- theme.canvasbg.count %>" src="https://cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+  <% } %>
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
   </script>
   <script>
