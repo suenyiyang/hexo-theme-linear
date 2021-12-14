@@ -12,7 +12,7 @@
   <hr>
   <blockquote>
     <p>
-      本文由 <a href=""><%- post.author ? post.author : config.author %></a> 创作，采用 <a href="https://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0</a> 国际许可协议。
+      本文由 <a href=""><%- post.author || config.author || "本站博主" %></a> 创作，采用 <a href="https://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0</a> 国际许可协议。
     </p>
     <p>
       本站文章除注明转载/出处外，均为本站原创或翻译，转载请务必署名。
