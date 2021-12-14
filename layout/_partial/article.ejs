@@ -2,6 +2,7 @@
   <%- partial('post/date', { post: post }) %>
   <h1><%- post.title %></h1>
   <%- partial('post/info', { post: post }) %>
+  <%- partial('post/tag', { post: post }) %>
   <% if (post.cover) { %>
   <img src="<%- post.cover %>" alt="<%- post.title %>">
   <% } %>

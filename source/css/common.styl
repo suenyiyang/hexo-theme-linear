@@ -22,7 +22,7 @@ a
   text-decoration: none
   transition: color 0.2s ease, border-color 0.2s ease
 
-p.post-info
+p.post-info, .article-tag-list
   font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif
   font-size: 13px
   color: #999
@@ -35,3 +35,18 @@ p.post-info
     content: "💬"
   span.view-count:before
     content: "👀"
+
+#main ul.article-tag-list
+  display: flex
+  justify-content: flex-start
+  list-style-type: none
+  flex-wrap: wrap
+  padding-inline: 0
+  padding: 0 !important
+  .article-tag-list-item
+    margin-right: 13px
+  .article-tag-list-item::before
+    position: relative !important
+    content: "📁"
+  .article-tag-list-item:hover::before
+    content: "📂"

@@ -1,10 +1,11 @@
-<li>
+<li class="archive-item">
   <%- partial('post/date.ejs', { post: post }) %>
   <div class="info">
     <h2>
       <a href="<%- url_for(post.path) %>"><%- post.title %></a>
     </h2>
     <%- partial('post/info', { post: post }) %>
+    <%- partial('post/tag', { post: post }) %>
   </div>
   <% if (post.cover) { %>
   <img class="index-cover" src="<%- post.cover %>" alt="<%- post.title %>">
