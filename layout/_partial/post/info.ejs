@@ -1,5 +1,9 @@
 <p class="post-info">
-  <span class="post-info-item author"><%- post.author || config.author %></span>
+  <% if (post.author) { %>
+  <span class="post-info-item author"><%- post.author %></span>
+  <% } %>
+  <% if (theme.waline.enabled) { %>
   <a href="<%- url_for(post.path) %>#waline" class="post-info-item comment-count waline-comment-count" id="<%- url_for(post.path).replace('index.html', '') %>"></a>
   <span class="post-info-item view-count waline-visitor-count" id="<%- url_for(post.path).replace('index.html', '') %>"></span>
+  <% } %>
 </p>
