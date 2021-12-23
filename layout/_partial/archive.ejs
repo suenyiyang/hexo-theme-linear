@@ -5,8 +5,8 @@
   <% if (page.total > 1){ %>
   <nav id="page-nav">
     <%- paginator({
-          prev_text: theme.pagination.prev_text || '<',
-          next_text: theme.pagination.next_text || '>',
+          prev_text: theme.pagination.prev_text,
+          next_text: theme.pagination.next_text,
         }) %>
   </nav>
   <% } %>
