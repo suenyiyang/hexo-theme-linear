@@ -45,8 +45,6 @@ icp:
 ## visitor counter
 counter:
   enabled: true
-  ### refer to https://github.com/syy11cn/hexo-theme-linear/blob/main/docs/guide.md
-  url:
 
 # google site verification
 verimeta:
