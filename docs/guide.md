@@ -56,3 +56,13 @@ counter:
   ### refer to https://github.com/syy11cn/hexo-theme-linear/blob/main/docs/guide.md
   url:
 ```
+
+## 数学公式支持
+
+默认情况下，hexo装载的渲染器为`hexo-renderer-marked`, 仅支持行间公式语法的数学公式渲染，而行内公式的渲染则不能实现。使用`hexo-renderer-markdown-it-plus`即可完全支持行内、行间的数学公式渲染。具体操作如下：
+
+1. 在**博客根目录**下，运行如下指令：
+   ```bash
+    npm un hexo-renderer-marked --save #卸载默认的渲染器
+    npm i hexo-renderer-markdown-it-plus --save # 高级的渲染器
+   ``` 
